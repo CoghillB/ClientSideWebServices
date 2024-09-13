@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+</head>
+<body>
+<h1>
+  This is Brayden's personal blog website
+</h1>
+<h2>
+  Welcome!
+</h2>
+<div>
+  <p><a href="blog.html"
+        target="_blank">Blog Posts</a></p>
+</div>
+<div>
+  <h4>My top 3 favourite cities!</h4>
+  <ol>
+    <li>Grand Cayman</li>
+    <li>Orlando</li>
+    <li>Cancun</li>
+  </ol>
+</div>
+<div>
+  <a href="https://www.okanagan.bc.ca"
+     target="_blank">
+    <img src="img/OkanaganCollege.jpg"
+         alt="Okanagan College Logo">
+  </a>
+</div>
+<table border="2">
+  <caption><strong>Weekly Schedule</strong></caption>
+  <tr>
+    <th>Time</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>8:00 - 9:00</td>
+    <td>COSC219</td>
+    <td>Sleep</td>
+    <td>COSC219</td>
+    <td>Sleep</td>
+    <td>Sleep</td>
+  </tr>
+  <tr>
+    <td>9:00 - 10:00</td>
+    <td rowspan="2">Gym</td>
+    <td rowspan="2">COSC236</td>
+    <td>Gym</td>
+    <td>Study</td>
+    <td rowspan="2">COSC236</td>
+  </tr>
+  <tr>
+    <td>10:00 - 11:00</td>
+    <td>Study</td>
+    <td rowspan="2">COSC213</td>
+  </tr>
+  <tr>
+    <td>11:00 - 12:00</td>
+    <td>COSC222</td>
+    <td>Study</td>
+    <td>Gym</td>
+    <td>Gym</td>
+  </tr>
+  <tr>
+    <td>12:00 - 1:00</td>
+    <td>COSC304</td>
+    <td rowspan="2">COSC213</td>
+    <td>COSC304</td>
+    <td rowspan="2">COSC213</td>
+    <td>Study</td>
+  </tr>
+  <tr>
+    <td>1:00 - 2:00</td>
+    <td rowspan="4">Study</td>
+    <td rowspan="3">Study</td>
+    <td rowspan="2">COSC304</td>
+  </tr>
+  <tr>
+    <td>2:00 - 3:00</td>
+    <td rowspan="2">COSC219</td>
+    <td>Study</td>
+  </tr>
+  <tr>
+    <td>3:00 - 4:00</td>
+    <td rowspan="2">Groceries</td>
+    <td rowspan="2">COSC222</td>
+  </tr>
+  <tr>
+    <td>4:00 - 5:00</td>
+    <td rowspan="2">COSC236</td>
+    <td rowspan="2">Work</td>
+  </tr>
+  <tr>
+    <td>5:00 - 6:00</td>
+    <td>Dinner</td>
+    <td>work</td>
+    <td>Dinner</td>
+  </tr>
+</table>
+<div>
+  <br>
+  <h3>Contact Me</h3>
+  <p>Fill out the form below to contact me.</p>
+  <br>
+  <form action="#" method="GET">
+    <!--Text Input-->
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+    <!--Email Input-->
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    <!--TextArea for Message-->
+    <label for="message">Message:</label>
+    <br>
+    <textarea id="message" name="message" required cols="25" rows="10"></textarea>
+    <!--RadioButtons-->
+    <p>When would you like to be contacted?</p>
+    <input type="radio" id="morning" name="contactTime" value="morning">
+    <label for="morning">Morning</label>
+
+    <input type="radio" id="afternoon" name="contactTime" value="afternoon">
+    <label for="afternoon">Afternoon</label>
+
+    <input type="radio" id="evening" name="contactTime" value="evening">
+    <label for="evening">Evening</label>
+    <br><br>
+    <!--Submit Button-->
+    <input type="submit" id="submitButton" value="Submit">
+    <label for="submitButton"></label>
+  </form>
+  <br>
+</div>
+<div id="contact">
+  <p><strong>Brayden Coghill<br><em>1000 K. L. O. Rd, Kelowna, BC V1Y 4X8</em></strong></p>
+</div>
+</body>
+</html>
